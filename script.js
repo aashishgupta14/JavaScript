@@ -1,3 +1,110 @@
+// async function f1(){
+//     const y =await 20;
+//     console.log(y)
+// }
+// f1()
+
+
+// const person = { 
+// firstName: "John", 
+// lastName: "Doe", 
+// // Getter 
+// get fullName() { 
+// return `${this.firstName} ${this.lastName}`; 
+// }, 
+// // Setter 
+// set fullName(value) { 
+// const parts = value.split(' '); 
+// this.firstName = parts[0]; 
+// this.lastName = parts[1]; 
+// } 
+// }; 
+// console.log(person.fullName); // "John Doe" 
+// person.fullName = "Jane Smith"; 
+// console.log(person.firstName); // "Jane" 
+
+//Object in js 
+// const person={
+//     name:"aashish",
+//     age:21,
+//     greet:function(){
+//          return `Hello  I am${this.name}`
+//     }
+// }
+// person.name // aashish
+// person.age //21
+// person // pura object return kr dega
+
+
+//synchronous
+// console.log("hello 1")
+// console.log("hello 2")
+
+//asynchronous
+// console.log("start first")
+// setTimeout(()=>{
+//     console.log("hello")
+
+// },2000)
+// console.log("end second ")
+
+//Recursion => the method is call itself is called recursion 
+// function fact(n){
+//     if(n<=1) return 1;
+//     return  n*fact (n-1)
+
+// }
+// fact(3)
+
+// function fact(n){
+//     if(n<=1) return 1;
+//     return  fact (n-1)*n
+
+// }
+// fact(4)
+
+//Method Chaining in js
+// class Calculator { 
+// constructor() { 
+// this.value = 0; 
+// } 
+// add(n) { 
+// this.value += n; 
+// return this; 
+// } 
+// subtract(n) { 
+// this.value -= n; 
+// return this; 
+// } 
+// multiply(n) { 
+// this.value *= n; 
+// return this; 
+// } 
+// getValue() { 
+// return this.value; 
+// } 
+// } 
+
+// new Calculator() 
+// .add(5) 
+// .multiply(2) 
+// .subtract(3) 
+// .getValue(); // 7
+
+
+// defualt parameter in js
+ 
+// function greet(name="Aashish",age=21){
+//     console.log("hello  "+ name + "Age is  "+ age)
+// }
+// greet("aman",55);
+// greet()
+
+// function test(name="Aashish",age=21){
+//     return ` ${name},${age};`
+// }
+// test("annu",45)
+
 // console.log(true+"1")
 
 //Hof =>higher order function 
@@ -5,9 +112,9 @@
 //it retrun always function 
 
 // example me map(), filter(), reduce() these are the example of hof
-let numbers=[2,3,5,6];
-let double=numbers.map(nums=>nums*2);
-console.log(double)
+// let numbers=[2,3,5,6];
+// let double=numbers.map(nums=>nums*2);
+// console.log(double)
 
 //Hoisting 
 
