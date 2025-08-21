@@ -1,7 +1,59 @@
+// console.log(true+"1")
+
+//Hof =>higher order function 
+// hof is a function that take one or more function as a arguments to the another function and 
+//it retrun always function 
+
+// example me map(), filter(), reduce() these are the example of hof
+let numbers=[2,3,5,6];
+let double=numbers.map(nums=>nums*2);
+console.log(double)
+
+//Hoisting 
+
+// add(4,3)
+// function add(a,b){
+//     return a+b;
+// }
 
 
-console.log(true+"1");
 
+//difference way to create functions 
+//1. function declaration 
+
+// function h(){
+//     console.log("hello")
+// }
+// h()
+//   function greet(name){
+//     console.log("hello "+ name)
+//   }
+//   greet("aashish")
+
+
+//2. function expression => function ko kisi variable me store karna
+ 
+// let greet=function(name){
+//     console.log("hello "+name)
+// }
+// greet("Aashish")
+
+//3.Arrow function
+
+// const add = (a,b)=>{
+//     return a+b
+// };
+
+// add(4,3) //return 7
+
+// const add=(a,b) => a+b;  //shorter way
+// add(2,3);
+
+//4. iife => imediately invoke function expression
+
+// (function(name){
+//     console.log("Hello"+name)
+// }),("Ashish")
 
 
 //function
