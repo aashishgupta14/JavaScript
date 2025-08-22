@@ -1,3 +1,17 @@
+//Rest parameter is allow  multiple parameter as argument in function as  in array
+function sum(...numbers){
+    return numbers.reduce((total,num)=>total+num,0)
+}
+sum(1,2,3,5,6,8)//25
+// Spread Operator in js
+//1.array spread 
+// let arr1=[1,2,3];
+// let arr2=[...arr1,4,5];
+// console.log(arr1);
+// console.log(arr2);
+
+//2.object spread
+
 // async function f1(){
 //     const y =await 20;
 //     console.log(y)
