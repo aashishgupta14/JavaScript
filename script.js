@@ -1,8 +1,8 @@
 //Rest parameter is allow  multiple parameter as argument in function as  in array
-function sum(...numbers){
-    return numbers.reduce((total,num)=>total+num,0)
-}
-sum(1,2,3,5,6,8)//25
+// function sum(...numbers){
+//     return numbers.reduce((total,num)=>total+num,0)
+// }
+// sum(1,2,3,5,6,8)//25
 // Spread Operator in js
 //1.array spread 
 // let arr1=[1,2,3];
